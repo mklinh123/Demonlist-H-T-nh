@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Demonlist Ha Tinh</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: white;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #222;
+      padding: 15px 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .demon-box {
+      background-color: #1c1c1c;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    }
+
+    .demon-box iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .info {
+      margin-top: 10px;
+    }
+
+    .top-rank {
+      font-size: 24px;
+      color: #ff3c3c;
+      font-weight: bold;
+    }
+
+    .level-name {
+      font-size: 22px;
+      font-weight: bold;
+      margin: 5px 0;
+    }
+
+    .author {
+      font-size: 18px;
+      color: #ccc;
+    }
+
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div>Demonlist</div>
+    <div>Player</div>
+  </div>
+
+  <div class="container">
+    <div class="demon-box">
+      <iframe src="https://www.youtube.com/embed/A6xe4tKdx_c" allowfullscreen></iframe>
+      <div class="info">
+        <div class="top-rank">#1</div>
+        <div class="level-name">Bloodbath</div>
+        <div class="author">by Riot</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
